@@ -1,0 +1,9 @@
+Django>=5.2,<5.3
+djangorestframework>=3.16,<4
+drf-spectacular>=0.28,<1
+psycopg[binary]>=3.2,<4
+dj-database-url>=2.3,<4
+python-dotenv>=1.0,<2
+Pillow>=11
+# Optional production storage (uncomment when using S3-compatible storage):
+# django-storages[s3]>=1.14

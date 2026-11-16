@@ -1,0 +1,521 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "demoAccount": "This is a demo account with sample data for testing only.",
+  "nav": {
+    "main": "Main menu",
+    "tenantTabs": "Tenant menu",
+    "menu": "Menu",
+    "breadcrumb": "You are here",
+    "skipToContent": "Skip to main content",
+    "collapseMenu": "Make the menu smaller",
+    "expandMenu": "Show the full menu",
+    "overview": "Overview",
+    "properties": "My Properties",
+    "tenants": "Tenants",
+    "maintenance": "Maintenance",
+    "inspections": "Inspections",
+    "expenses": "Expenses",
+    "finances": "Rent & Finances",
+    "notifications": "Notifications",
+    "help": "Help & Support",
+    "settings": "Settings",
+    "myHome": "My Home",
+    "reportProblem": "Report a Problem",
+    "myRequests": "My Requests",
+    "profile": "Profile"
+  },
+  "actions": {
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "edit": "Edit",
+    "delete": "Delete",
+    "remove": "Remove",
+    "confirm": "Yes, continue",
+    "noGoBack": "No, go back",
+    "done": "Done",
+    "change": "Change",
+    "tryAgain": "Try again",
+    "actions": "Actions"
+  },
+  "states": {
+    "loading": "Loading, please wait…",
+    "errorTitle": "Something went wrong",
+    "saved": "Your changes were saved."
+  },
+  "form": {
+    "optional": "optional",
+    "choose": "— Choose —",
+    "other": "Other"
+  },
+  "stepper": {
+    "stepOf": "Step {{current}} of {{total}}",
+    "progress": "Progress",
+    "done": "done"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "roles": {
+    "landlord": "Property owner (landlord)",
+    "manager": "Property manager",
+    "tenant": "Tenant",
+    "admin": "Administrator"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search properties, tenants, requests…",
+    "noResults": "Nothing found. Try another word.",
+    "property": "Property",
+    "unit": "Unit",
+    "tenant": "Tenant",
+    "request": "Repair request"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create an account",
+    "signInTitle": "Welcome back",
+    "signInSubtitle": "Sign in with your email and password.",
+    "signUpTitle": "Create your account",
+    "signUpSubtitle": "It is free and takes about one minute.",
+    "email": "Email address",
+    "password": "Password",
+    "passwordAgain": "Type the password again",
+    "passwordHint": "At least 8 characters. Avoid simple passwords like 12345678.",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "phoneHint": "Tenants can use it to call you.",
+    "iAm": "I am a…",
+    "roleHint": {
+      "landlord": "I own rental houses or apartments.",
+      "manager": "I manage properties for an owner."
+    },
+    "createAccount": "Create my account",
+    "haveAccount": "Already have an account?",
+    "noAccount": "New to Rental_Control?",
+    "forgotPassword": "I forgot my password",
+    "tenantHint": "Tenants: use the invitation link from your landlord to join.",
+    "forgotTitle": "Forgot your password?",
+    "forgotSubtitle": "Enter your email. We will send you a link to choose a new password.",
+    "sendResetLink": "Send me the link",
+    "resetSentTitle": "Please check your email",
+    "resetSentText": "If an account exists for this email, a link to reset your password is on its way. The link works for a limited time.",
+    "backToSignIn": "Back to sign in",
+    "resetTitle": "Choose a new password",
+    "saveNewPassword": "Save my new password",
+    "resetDoneTitle": "Your password was changed",
+    "resetDoneText": "You can now sign in with your new password.",
+    "requestNewLink": "Ask for a new link"
+  },
+  "join": {
+    "title": "Join your home on Rental_Control",
+    "intro": "{{landlord}} invited you to {{property}}, {{unit}}, starting {{date}}.",
+    "createAccountFor": "Create your account for {{email}}.",
+    "acceptButton": "Join my home",
+    "signInFirst": "You already have an account with {{email}}. Please sign in first, then come back to this link.",
+    "wrongAccount": "This invitation is for {{email}}. Please sign out and sign in with that email.",
+    "askLandlord": "Please ask your landlord to send you a new invitation link.",
+    "status": {
+      "accepted": "This invitation was already used",
+      "expired": "This invitation has expired",
+      "cancelled": "This invitation was cancelled",
+      "pending": "This invitation is waiting"
+    }
+  },
+  "onboarding": {
+    "title": "Welcome, {{name}}!",
+    "subtitle": "Let's set up your first property. Here is what happens next:",
+    "steps": {
+      "property": {
+        "title": "Add a property",
+        "text": "Give it a name, like “Kibagabaga Residence”, and add a photo if you like."
+      },
+      "unit": {
+        "title": "Add the rental units",
+        "text": "Each apartment, house or room you rent out. For example A1, A2, B1."
+      },
+      "tenant": {
+        "title": "Invite your tenants",
+        "text": "Send each tenant a private link. They can then report problems from their phone."
+      },
+      "dashboard": {
+        "title": "Follow everything from the Overview",
+        "text": "See which repairs are waiting and how much rent you collected."
+      }
+    },
+    "start": "Add my first property",
+    "skip": "Skip for now"
+  },
+  "dashboard": {
+    "greeting": "Hello, {{name}}",
+    "subtitle": "Here is what is happening with your properties today.",
+    "needsAttention": "Needs Your Attention",
+    "allGood": "Nothing needs your attention right now.",
+    "rentOverdue": "{{name}} has unpaid rent: {{amount}}",
+    "vacantUnit": "This unit is empty — invite a tenant",
+    "summary": "Your properties at a glance",
+    "properties": "Properties",
+    "units": "Rental units",
+    "occupiedVacant": "{{occupied}} occupied, {{vacant}} empty",
+    "openRequests": "Repairs not finished",
+    "newCount_one": "{{count}} new",
+    "newCount_other": "{{count}} new",
+    "urgentRequests": "Urgent problems",
+    "moneyThisMonth": "Money this month",
+    "overdueTenants_one": "{{count}} tenant is late",
+    "overdueTenants_other": "{{count}} tenants are late",
+    "quickActions": "Quick actions",
+    "recentRepairs": "Recent repairs",
+    "noRepairs": "No repairs recorded yet.",
+    "recentActivity": "Recent activity",
+    "emptyTitle": "You have no properties yet",
+    "emptyText": "Start by adding your first property. It only takes a minute.",
+    "emptyManager": "No properties have been assigned to you yet. Ask the property owner to add you."
+  },
+  "activity": {
+    "system": "Rental_Control",
+    "account": {
+      "signup": "Account created"
+    },
+    "property": {
+      "created": "Property added",
+      "updated": "Property details changed",
+      "deleted": "Property deleted",
+      "manager_assigned": "Manager added",
+      "manager_removed": "Manager removed"
+    },
+    "unit": {
+      "created": "Unit added",
+      "updated": "Unit details changed",
+      "deleted": "Unit deleted"
+    },
+    "invitation": {
+      "created": "Tenant invited",
+      "cancelled": "Invitation cancelled",
+      "new_link": "New invitation link created",
+      "accepted": "Tenant joined"
+    },
+    "tenancy": {
+      "ended": "Tenant moved out",
+      "updated": "Tenancy details changed"
+    },
+    "inspection": {
+      "created": "Inspection started",
+      "completed": "Inspection completed",
+      "deleted": "Draft inspection deleted"
+    },
+    "maintenance": {
+      "created": "Problem reported",
+      "updated": "Repair request changed",
+      "status_changed": "Repair status changed"
+    },
+    "repair": {
+      "recorded": "Repair recorded",
+      "updated": "Repair changed"
+    },
+    "expense": {
+      "created": "Expense recorded",
+      "updated": "Expense changed",
+      "deleted": "Expense deleted"
+    },
+    "payment": {
+      "recorded": "Rent payment recorded",
+      "deleted": "Rent payment deleted"
+    }
+  },
+  "notifications": {
+    "subtitle": "Updates about your properties and repairs.",
+    "emptyTitle": "No notifications yet",
+    "emptyText": "When something happens, you will see it here.",
+    "markAllRead": "Mark all as read",
+    "new": "New",
+    "unread": "unread",
+    "ariaCount_one": "Notifications: {{count}} unread",
+    "ariaCount_other": "Notifications: {{count}} unread",
+    "kinds": {
+      "request_created": "New problem reported at {{property}}, {{unit}}: {{category}} ({{reference}})",
+      "request_created_urgent": "URGENT problem at {{property}}, {{unit}}: {{category}} ({{reference}})",
+      "request_status": "Your request {{reference}} is now: {{status}}",
+      "request_note": "New message from {{author}} about {{reference}}",
+      "repair_completed": "The repair for {{reference}} is finished",
+      "tenant_joined": "{{tenant}} joined {{property}}, {{unit}}",
+      "tenancy_started": "Welcome! You are now linked to {{property}}, {{unit}}",
+      "inspection_shared": "A condition record for {{unit}} is ready to view ({{type}}, {{date}})",
+      "payment_recorded": "Your landlord recorded a rent payment of {{amount}} on {{date}}",
+      "manager_assigned": "You can now help manage {{property}}"
+    }
+  },
+  "photos": {
+    "hint": "Up to {{max}} photos, each up to {{size}} MB (JPG, PNG or WEBP).",
+    "takePhoto": "Take a photo",
+    "choosePhotos": "Choose photos",
+    "selected_one": "{{count}} photo selected",
+    "selected_other": "{{count}} photos selected",
+    "previewAlt": "Selected photo {{number}}",
+    "wrongType": "This file is not a photo. Please choose a JPG, PNG or WEBP picture.",
+    "tooLarge": "This photo is too big. The limit is {{max}} MB."
+  },
+  "settings": {
+    "subtitle": "Change your language, text size and account details.",
+    "display": "Language and display",
+    "textSize": "Text size",
+    "textNormal": "Normal text",
+    "textLarge": "Larger text",
+    "theme": "Colours",
+    "light": "Light",
+    "dark": "Dark",
+    "profile": "My details",
+    "emailFixed": "Your email cannot be changed here.",
+    "profileSaved": "Your details were saved.",
+    "password": "Password",
+    "changePassword": "Change my password",
+    "passwordSaved": "Your password was changed.",
+    "account": "Account",
+    "signedInAs": "Signed in as {{email}} ({{role}})."
+  },
+  "tenant": {
+    "welcome": "Hello, {{name}}",
+    "joinedTitle": "You have joined your home",
+    "joinedText": "If something breaks, press “Report a Problem”. Your landlord will be told straight away and you can follow the repair here.",
+    "noHomeTitle": "Your account is not linked to a home yet",
+    "noHomeText": "Please ask your landlord to send you an invitation link.",
+    "yourHome": "Your home",
+    "reportHint": "Something broken or not working? Tell your landlord in a few steps.",
+    "activeRequests": "My open requests",
+    "seeAll": "See all",
+    "noActive": "You have no open requests.",
+    "noDone": "No finished requests yet.",
+    "recentUpdates": "Latest updates",
+    "homeDetails": "About my home",
+    "landlordContact": "Your landlord",
+    "myPayments": "My rent payments",
+    "conditionRecords": "Condition records of my home",
+    "conditionRecordsHint": "Inspections your landlord shared with you.",
+    "inProgressTab": "In progress",
+    "doneTab": "Finished",
+    "backHome": "Back to My Home",
+    "inspectionNote": "This is a dated record of the home's condition. If you see something wrong, please tell your landlord.",
+    "paymentsOff": "Your landlord has not shared rent records here.",
+    "paymentsNote": "These are the payments your landlord recorded. If something looks wrong, please contact your landlord."
+  },
+  "landing": {
+    "tagline": "Simple rental property management",
+    "badge": "Made for landlords in Rwanda",
+    "title": "Look after your rental houses, repairs and rent — all in one simple place.",
+    "subtitle": "Rental_Control keeps a record of each home's condition, lets tenants report problems with photos, and shows you the rent and expenses of every property.",
+    "ctaLandlord": "Start for free",
+    "openApp": "Open my account",
+    "tenantNote": "Are you a tenant? Your landlord will send you a personal invitation link.",
+    "exampleUrgent": "Urgent: water leaking in the kitchen",
+    "exampleRent": "Rent not yet paid",
+    "exampleExample": "example",
+    "exampleDone": "Repair finished",
+    "featuresTitle": "What you can do",
+    "features": {
+      "properties": {
+        "title": "All your properties",
+        "text": "See every house, apartment and tenant on one screen."
+      },
+      "passport": {
+        "title": "Digital Property Passport",
+        "text": "A dated history of each unit: inspections, photos, repairs and costs."
+      },
+      "repairs": {
+        "title": "Repairs without phone calls",
+        "text": "Tenants report problems in a few taps. You follow each repair from start to finish."
+      },
+      "photos": {
+        "title": "Photo evidence",
+        "text": "Compare photos from move-in and later checks, side by side."
+      },
+      "money": {
+        "title": "Rent and expenses",
+        "text": "Record rent received and money spent, and see what each property brings in."
+      },
+      "languages": {
+        "title": "Your language",
+        "text": "Use Rental_Control in English, Kinyarwanda or French."
+      }
+    }
+  },
+  "help": {
+    "title": "Help & Support",
+    "subtitle": "Short answers to common questions. Press a question to read the answer.",
+    "topics": {
+      "addProperty": {
+        "q": "How do I add a property?",
+        "a": "Go to “My Properties” and press “Add a Property”. Follow the 4 short steps. Then add each unit (apartment, house or room) that you rent out."
+      },
+      "inviteTenant": {
+        "q": "How do I add a tenant?",
+        "a": "Open the unit, choose the “Tenant” tab and press “Invite a tenant”. Fill in the tenant's name and email. You will get a private link: send it by email, SMS or WhatsApp. The tenant opens it to create their account."
+      },
+      "reportProblem": {
+        "q": "How do I report a problem?",
+        "a": "Press the big “Report a Problem” button. Choose the kind of problem, describe it in a few words, add a photo if you can, and press “Send”. You will get a reference number."
+      },
+      "trackRepair": {
+        "q": "How do I follow a repair?",
+        "a": "Open “My Requests” (tenants) or “Maintenance” (landlords). Each request shows its status and a history of every step: reported, reviewed, repair started, resolved."
+      },
+      "inspection": {
+        "q": "What is an inspection?",
+        "a": "An inspection is a dated check of the home, room by room. Choose Good, Needs attention or Damaged for each part and add photos. When you finish, the record is locked so it can be trusted later, for example when a tenant moves out."
+      },
+      "rent": {
+        "q": "How do I record rent?",
+        "a": "Go to “Rent & Finances” and press “Record a payment”. Rental_Control only keeps records — it does not send or receive money."
+      },
+      "language": {
+        "q": "How do I change the language?",
+        "a": "Use the “Language” menu at the top of every page. Your choice is saved in your account."
+      },
+      "textSize": {
+        "q": "Can I make the text bigger?",
+        "a": "Yes. Go to Settings (or Profile) and choose “Larger text”. You can also use your browser zoom."
+      }
+    },
+    "contactTitle": "Still need help?",
+    "contactText": "Contact the Rental_Control support team. We answer in English, Kinyarwanda and French.",
+    "contactPhone": "Phone: to be configured by the operator",
+    "contactEmail": "Email: to be configured by the operator"
+  },
+  "privacy": {
+    "title": "Privacy information",
+    "subtitle": "How Rental_Control uses your information, in plain words.",
+    "sections": {
+      "what": {
+        "title": "What we keep",
+        "text": "Your name, email and phone number; the properties and units you manage; inspections, photos, repair requests, expenses and rent records that you or your tenants add."
+      },
+      "why": {
+        "title": "Why we keep it",
+        "text": "Only to run the service: to show you your records, to tell people about updates, and to keep a trustworthy history of each home."
+      },
+      "who": {
+        "title": "Who can see it",
+        "text": "Landlords see only their own properties. Property managers see only the properties an owner gave them. Tenants see only their own home, their own requests and the records shared with them. A new tenant cannot see a previous tenant's requests."
+      },
+      "photos": {
+        "title": "Photos and evidence",
+        "text": "Photos are private. They are only shown to signed-in people who are allowed to see that record. Completed inspections cannot be changed, so they stay reliable. Rental_Control never decides who caused damage — people do."
+      },
+      "rights": {
+        "title": "Your choices",
+        "text": "You can correct your details in Settings. To delete your account or get a copy of your data, contact support."
+      },
+      "storage": {
+        "title": "Where it is stored",
+        "text": "Data is stored on the servers chosen by the operator of this Rental_Control installation. Passwords are stored in a protected (hashed) form."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist or you are not allowed to see it.",
+    "goHome": "Go to my home page"
+  },
+  "validation": {
+    "required": "Please fill in this field.",
+    "blank": "Please fill in this field.",
+    "null": "Please fill in this field.",
+    "invalid": "This value is not valid.",
+    "invalid_choice": "Please choose one of the options.",
+    "email": "Please enter a valid email address, like name@example.com.",
+    "nameRequired": "Please enter a name.",
+    "passwordLength": "The password must have at least 8 characters.",
+    "passwordsMatch": "The two passwords are not the same.",
+    "wholeNumber": "Please enter a whole number without decimals, like 45000.",
+    "min_value": "This number is too small.",
+    "max_value": "This number is too big.",
+    "max_length": "This text is too long.",
+    "min_length": "This text is too short.",
+    "email_taken": "An account with this email already exists. Try signing in.",
+    "weak_password": "This password is too easy to guess. Please choose a longer one.",
+    "wrong_password": "Your current password is not correct.",
+    "invalid_reset_link": "This reset link has expired or was already used.",
+    "invalid_image": "Please choose a photo (JPG, PNG or WEBP).",
+    "file_too_large": "This file is too large.",
+    "invalid_document": "This file could not be read.",
+    "duplicate_unit": "This property already has a unit with this name.",
+    "not_allowed": "You are not allowed to choose this.",
+    "too_short": "Please write a little more.",
+    "already_counted": "This repair cost is already recorded. Change the repair instead of adding a second expense.",
+    "before_tenancy": "This date is before the tenant moved in.",
+    "end_before_start": "The end date must be after the start date.",
+    "not_tenant_email": "This email belongs to a landlord or manager account. Please use the tenant's own email.",
+    "manager_not_found": "We could not find a property manager account with this email. Ask them to sign up first.",
+    "invalid_date": "Please enter a valid date."
+  },
+  "errors": {
+    "unknown": "Something went wrong. Please try again.",
+    "validation_error": "Please check the highlighted information.",
+    "network_error": "We could not reach Rental_Control. Please check your internet connection and try again.",
+    "not_authenticated": "Please sign in to continue.",
+    "authentication_failed": "Please sign in again.",
+    "invalid_credentials": "The email or password is not correct.",
+    "permission_denied": "You are not allowed to do this.",
+    "not_found": "We could not find this. It may have been removed.",
+    "throttled": "Too many attempts. Please wait a minute and try again.",
+    "csrf_failed": "Your session expired. Please refresh the page and try again.",
+    "conflict": "This action is not possible right now.",
+    "error": "Something went wrong. Please try again.",
+    "parse_error": "Something went wrong. Please try again.",
+    "http_500": "The server had a problem. Please try again in a moment.",
+    "owner_only": "Only the property owner can do this.",
+    "staff_only": "Only your landlord or manager can do this.",
+    "property_has_history": "This property has tenants, inspections, repairs or expenses recorded, so it cannot be deleted. Its history is kept for your records.",
+    "unit_has_history": "This unit has history (tenants, inspections, repairs or expenses), so it cannot be deleted.",
+    "unit_occupied": "Someone already lives in this unit. Record their move-out first.",
+    "unit_vacant": "Nobody is living in this unit right now.",
+    "end_before_start": "The end date must be after the start date.",
+    "invitation_not_found": "This invitation link is not valid. Please check the link or ask your landlord for a new one.",
+    "invitation_accepted": "This invitation was already used.",
+    "invitation_expired": "This invitation has expired. Ask your landlord for a new link.",
+    "invitation_cancelled": "This invitation was cancelled. Ask your landlord for a new link.",
+    "invitation_closed": "This invitation is no longer open.",
+    "sign_in_required": "Please sign in with the invited email address first.",
+    "wrong_account": "This invitation is for a different email address.",
+    "not_tenant_account": "This invitation can only be accepted by a tenant account.",
+    "no_home": "Your account is not linked to a home yet. Ask your landlord to invite you.",
+    "invalid_transition": "This step is not possible from the current status.",
+    "inspection_locked": "This inspection is completed and kept as a permanent record. It cannot be changed.",
+    "inspection_empty": "Please add at least one room before finishing.",
+    "repair_exists": "A repair is already recorded for this request.",
+    "request_closed": "This request is closed.",
+    "too_many_photos": "This request already has the maximum number of photos.",
+    "no_finance_access": "You do not have permission to see or record money for this property.",
+    "repair_expense": "This is a repair cost. Change it from the repair request."
+  },
+  "dates": {
+    "months": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "justNow": "just now",
+    "minutesAgo_one": "{{count}} minute ago",
+    "minutesAgo_other": "{{count}} minutes ago",
+    "hoursAgo_one": "{{count}} hour ago",
+    "hoursAgo_other": "{{count}} hours ago",
+    "daysAgo_one": "{{count}} day ago",
+    "daysAgo_other": "{{count}} days ago"
+  }
+}

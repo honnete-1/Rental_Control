@@ -1,0 +1,9 @@
+{
+  "name": "Rental_Control",
+  "short_name": "Rental_Control",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#142B45",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

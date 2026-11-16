@@ -1,0 +1,108 @@
+{
+  "newInspection": "Kora isuzuma",
+  "types": {
+    "move_in": "Kwinjira",
+    "periodic": "Isuzuma risanzwe",
+    "move_out": "Kuvamo"
+  },
+  "typeHelp": {
+    "move_in": "Igihe umupangayi mushya yinjiye.",
+    "periodic": "Igenzura risanzwe mu gihe cy'ubukode.",
+    "move_out": "Igihe umupangayi avuyemo."
+  },
+  "status": {
+    "draft": "Ntirirangira",
+    "completed": "Ryarangiye"
+  },
+  "conditions": {
+    "good": "Ni byiza",
+    "needs_attention": "Bikeneye kwitabwaho",
+    "damaged": "Byangiritse",
+    "not_checked": "Ntibyasuzumwe"
+  },
+  "elements": {
+    "general": "Uko bimeze muri rusange",
+    "doors_windows": "Inzugi n'amadirishya",
+    "plumbing": "Amazi n'amatiyo",
+    "electrical": "Amashanyarazi (amatara, za priza)",
+    "walls_ceiling": "Inkuta n'igisenge",
+    "flooring": "Hasi (sima/amakaro)",
+    "fixtures": "Ibikoresho bifatanye n'inzu"
+  },
+  "rooms": {
+    "livingRoom": "Uruganiriro",
+    "kitchen": "Igikoni",
+    "bedroom1": "Icyumba cyo kuraramo 1",
+    "bedroom2": "Icyumba cyo kuraramo 2",
+    "bathroom": "Ubwogero",
+    "toilet": "Ubwiherero",
+    "corridor": "Inzira yo mu nzu",
+    "outside": "Hanze n'igipangu"
+  },
+  "list": {
+    "title": "Amateka y'uko inzu zimeze",
+    "subtitle": "Amasuzuma yose y'inzu zawe, aheruka mbere.",
+    "emptyTitle": "Nta suzuma rirakorwa",
+    "emptyText": "Kora isuzuma ryo kwinjira kugira ngo ubike ikimenyetso cy'uko buri nzu imeze.",
+    "photos_one": "Ifoto {{count}}",
+    "photos_other": "Amafoto {{count}}",
+    "problems_one": "Ikibazo {{count}}",
+    "problems_other": "Ibibazo {{count}}"
+  },
+  "wizard": {
+    "step1": "Inzu iyihe?",
+    "step2": "Ibyumba ibihe?",
+    "step3": "Suzuma buri cyumba",
+    "step4": "Shyiraho amafoto",
+    "step5": "Genzura hanyuma urangize",
+    "chooseUnit": "Hitamo inzu urimo gusuzuma.",
+    "chooseRoom": "Hitamo nibura icyumba kimwe.",
+    "typeLabel": "Ubwoko bw'isuzuma",
+    "date": "Itariki y'isuzuma",
+    "inspector": "Ryakozwe na",
+    "roomsHelp": "Hitamo ibyumba biri muri iyi nzu. Ushobora kongeramo ibindi hasi.",
+    "hasWater": "Harimo amazi na robine",
+    "hasWaterShort": "Harimo amazi",
+    "addRoom": "Ongeraho ikindi cyumba",
+    "roomName": "Izina ry'icyumba",
+    "startChecklist": "Tangira gusuzuma",
+    "roomTitle": "{{room}} (icyumba cya {{current}} kuri {{total}})",
+    "conditionHelp": "Kuri buri kintu, hitamo ijambo rigisobanura neza. Sobanura ikibazo icyo ari cyo cyose ubonye.",
+    "allGood": "Emeza ko byose muri iki cyumba ari byiza",
+    "describeProblem": "Sobanura ibyo ubona",
+    "notesExample": "Urugero: umututu muto hejuru y'idirishya.",
+    "autosave": "Aho ugeze habikwa igihe cyose ukanze Komeza.",
+    "photosHelp": "Fata amafoto ya buri cyumba, cyane cyane ahangiritse.",
+    "generalPhoto": "Amafoto rusange",
+    "savedPhotos_one": "Ifoto {{count}} yabitswe",
+    "savedPhotos_other": "Amafoto {{count}} yabitswe",
+    "photosOptional": "Amafoto si ngombwa ariko arasabwa cyane.",
+    "summary": "Incamake",
+    "summaryHint": "Ijambo rigufi rusange, urugero “Inzu isukuye kandi iteguye umupangayi.”",
+    "share": "Sangiza iyi nyandiko umupangayi",
+    "shareHint": "Umupangayi w'ubu ashobora kubona uko ibintu bimeze n'amafoto (si ibyitonderwa byawe bwite).",
+    "lockWarning": "Nurangiza, iri suzuma rizafungwa ribe inyandiko ihoraho ifite itariki. Ntirizongera guhindurwa.",
+    "finish": "Rangiza kandi ufunge",
+    "completed": "Isuzuma ryabitswe kandi ryafunzwe.",
+    "draftSaved": "Isuzuma ryawe ryabitswe. Ushobora kurikomeza nyuma."
+  },
+  "detail": {
+    "continue": "Komeza isuzuma",
+    "deleteDraft": "Siba isuzuma ritarangiye",
+    "deleteConfirm": "Iri suzuma ritarangiye n'amafoto yaryo bizasibwa. Ntibishobora gusubizwaho.",
+    "deleted": "Isuzuma ritarangiye ryasibwe.",
+    "print": "Capa",
+    "lockedTitle": "Inyandiko ihoraho",
+    "lockedText": "Iri suzuma ryarangiye kandi ntirishobora kongera guhindurwa.",
+    "draftText": "Iri suzuma ntirirangira. Rikomeze kugira ngo urirangize kandi urifunge."
+  },
+  "compare": {
+    "title": "Gereranya amafoto",
+    "room": "Icyumba",
+    "allRooms": "Ibyumba byose",
+    "earlier": "Ifoto ya mbere",
+    "later": "Ifoto ya nyuma",
+    "needTwo": "Hakenewe nibura amafoto abiri kugira ngo ugereranye.",
+    "disclaimer": "Aya mafoto ni inyandiko zifite amatariki gusa. Ntabwo agaragaza uwateje icyangiritse — ibyo ni ibyo abantu bumvikanaho."
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "yes": "Yego",
+  "no": "Oya",
+  "demoAccount": "Iyi ni konti y'igerageza ifite amakuru y'ingero, ikoreshwa mu kugerageza gusa.",
+  "nav": {
+    "main": "Urutonde nyamukuru",
+    "tenantTabs": "Urutonde rw'umupangayi",
+    "menu": "Urutonde",
+    "breadcrumb": "Uri hano",
+    "skipToContent": "Jya ku bikubiyemo by'ingenzi",
+    "collapseMenu": "Gabanya urutonde",
+    "expandMenu": "Erekana urutonde rwose",
+    "overview": "Incamake",
+    "properties": "Imitungo yanjye",
+    "tenants": "Abapangayi",
+    "maintenance": "Gusana",
+    "inspections": "Isuzuma ry'inzu",
+    "expenses": "Amafaranga yasohotse",
+    "finances": "Ubukode n'imari",
+    "notifications": "Ubutumwa",
+    "help": "Ubufasha",
+    "settings": "Igenamiterere",
+    "myHome": "Inzu yanjye",
+    "reportProblem": "Menyekanisha ikibazo",
+    "myRequests": "Ibyo nasabye",
+    "profile": "Umwirondoro"
+  },
+  "actions": {
+    "add": "Ongeraho",
+    "back": "Subira inyuma",
+    "next": "Komeza",
+    "cancel": "Reka",
+    "close": "Funga",
+    "save": "Bika",
+    "saveChanges": "Bika impinduka",
+    "edit": "Hindura",
+    "delete": "Siba",
+    "remove": "Kuraho",
+    "confirm": "Yego, komeza",
+    "noGoBack": "Oya, subira inyuma",
+    "done": "Byarangiye",
+    "change": "Hindura",
+    "tryAgain": "Ongera ugerageze",
+    "actions": "Ibikorwa"
+  },
+  "states": {
+    "loading": "Biracyaza, tegereza gato…",
+    "errorTitle": "Hari ikitagenze neza",
+    "saved": "Impinduka zawe zabitswe."
+  },
+  "form": {
+    "optional": "si ngombwa",
+    "choose": "— Hitamo —",
+    "other": "Ibindi"
+  },
+  "stepper": {
+    "stepOf": "Intambwe ya {{current}} kuri {{total}}",
+    "progress": "Aho ugeze",
+    "done": "byarangiye"
+  },
+  "language": {
+    "label": "Ururimi"
+  },
+  "roles": {
+    "landlord": "Nyir'inzu",
+    "manager": "Ucunga imitungo",
+    "tenant": "Umupangayi",
+    "admin": "Umuyobozi wa sisitemu"
+  },
+  "search": {
+    "label": "Shakisha",
+    "placeholder": "Shakisha umutungo, umupangayi, ikibazo…",
+    "noResults": "Nta cyabonetse. Gerageza irindi jambo.",
+    "property": "Umutungo",
+    "unit": "Inzu ikodeshwa",
+    "tenant": "Umupangayi",
+    "request": "Ikibazo cyo gusana"
+  },
+  "auth": {
+    "signIn": "Injira",
+    "signOut": "Sohoka",
+    "signUp": "Fungura konti",
+    "signInTitle": "Murakaza neza nanone",
+    "signInSubtitle": "Injira ukoresheje imeyili n'ijambobanga byawe.",
+    "signUpTitle": "Fungura konti yawe",
+    "signUpSubtitle": "Ni ubuntu, kandi bifata nk'umunota umwe.",
+    "email": "Aderesi ya imeyili",
+    "password": "Ijambobanga",
+    "passwordAgain": "Ongera wandike ijambobanga",
+    "passwordHint": "Nibura inyuguti 8. Irinde amagambobanga yoroshye nka 12345678.",
+    "currentPassword": "Ijambobanga ukoresha ubu",
+    "newPassword": "Ijambobanga rishya",
+    "fullName": "Amazina yombi",
+    "phone": "Nimero ya telefoni",
+    "phoneHint": "Abapangayi bashobora kuyikoresha bakuhamagara.",
+    "iAm": "Ndi…",
+    "roleHint": {
+      "landlord": "Mfite inzu cyangwa amazu nkodesha.",
+      "manager": "Ncunga imitungo ya nyirayo."
+    },
+    "createAccount": "Fungura konti yanjye",
+    "haveAccount": "Usanzwe ufite konti?",
+    "noAccount": "Uri mushya kuri Rental_Control?",
+    "forgotPassword": "Nibagiwe ijambobanga",
+    "tenantHint": "Abapangayi: koresha umurongo w'ubutumire wahawe na nyir'inzu.",
+    "forgotTitle": "Wibagiwe ijambobanga?",
+    "forgotSubtitle": "Andika imeyili yawe. Turakoherereza umurongo wo guhitamo ijambobanga rishya.",
+    "sendResetLink": "Nyoherereza umurongo",
+    "resetSentTitle": "Reba muri imeyili yawe",
+    "resetSentText": "Niba hari konti ifite iyi imeyili, umurongo wo guhindura ijambobanga woherejwe. Uyu murongo umara igihe gito.",
+    "backToSignIn": "Subira aho kwinjirira",
+    "resetTitle": "Hitamo ijambobanga rishya",
+    "saveNewPassword": "Bika ijambobanga rishya",
+    "resetDoneTitle": "Ijambobanga ryawe ryahinduwe",
+    "resetDoneText": "Ubu ushobora kwinjira ukoresheje ijambobanga rishya.",
+    "requestNewLink": "Saba undi murongo"
+  },
+  "join": {
+    "title": "Injira mu nzu yawe kuri Rental_Control",
+    "intro": "{{landlord}} agutumiye muri {{property}}, {{unit}}, guhera ku itariki {{date}}.",
+    "createAccountFor": "Fungura konti yawe ya {{email}}.",
+    "acceptButton": "Injira mu nzu yanjye",
+    "signInFirst": "Usanzwe ufite konti ya {{email}}. Banza winjire, hanyuma ugaruke kuri uyu murongo.",
+    "wrongAccount": "Ubu butumire ni ubwa {{email}}. Sohoka, hanyuma winjire ukoresheje iyo imeyili.",
+    "askLandlord": "Saba nyir'inzu akoherereze undi murongo w'ubutumire.",
+    "status": {
+      "accepted": "Ubu butumire bwamaze gukoreshwa",
+      "expired": "Igihe cy'ubu butumire cyarangiye",
+      "cancelled": "Ubu butumire bwahagaritswe",
+      "pending": "Ubu butumire buracyategereje"
+    }
+  },
+  "onboarding": {
+    "title": "Murakaza neza, {{name}}!",
+    "subtitle": "Reka dushyiremo umutungo wawe wa mbere. Dore ibikurikiraho:",
+    "steps": {
+      "property": {
+        "title": "Ongeraho umutungo",
+        "text": "Uhe izina, nka “Kibagabaga Residence”, kandi ushyireho ifoto niba ubishaka."
+      },
+      "unit": {
+        "title": "Ongeraho inzu zikodeshwa",
+        "text": "Buri nzu, apartema cyangwa icyumba ukodesha. Urugero: A1, A2, B1."
+      },
+      "tenant": {
+        "title": "Tumira abapangayi bawe",
+        "text": "Ohereza buri mupangayi umurongo we bwite. Bazashobora kumenyekanisha ibibazo bakoresheje telefoni."
+      },
+      "dashboard": {
+        "title": "Kurikirana byose ku Incamake",
+        "text": "Reba ibisanwa bitegereje n'ubukode wakiriye."
+      }
+    },
+    "start": "Ongeraho umutungo wanjye wa mbere",
+    "skip": "Nzabikora nyuma"
+  },
+  "dashboard": {
+    "greeting": "Muraho, {{name}}",
+    "subtitle": "Dore ibiri kuba ku mitungo yawe uyu munsi.",
+    "needsAttention": "Ibikeneye ko ubyitaho",
+    "allGood": "Nta kintu gikeneye ko ucyitaho ubu.",
+    "rentOverdue": "{{name}} afite ubukode atarishyura: {{amount}}",
+    "vacantUnit": "Iyi nzu irimo ubusa — tumira umupangayi",
+    "summary": "Imitungo yawe muri make",
+    "properties": "Imitungo",
+    "units": "Inzu zikodeshwa",
+    "occupiedVacant": "{{occupied}} zirimo abantu, {{vacant}} zirimo ubusa",
+    "openRequests": "Ibisanwa bitararangira",
+    "newCount_one": "{{count}} gishya",
+    "newCount_other": "{{count}} bishya",
+    "urgentRequests": "Ibibazo byihutirwa",
+    "moneyThisMonth": "Amafaranga y'uku kwezi",
+    "overdueTenants_one": "Umupangayi {{count}} yatinze kwishyura",
+    "overdueTenants_other": "Abapangayi {{count}} batinze kwishyura",
+    "quickActions": "Ibikorwa byihuse",
+    "recentRepairs": "Ibisanwa biheruka",
+    "noRepairs": "Nta gisanwa kiranditswe.",
+    "recentActivity": "Ibikorwa biheruka",
+    "emptyTitle": "Nta mutungo urashyiramo",
+    "emptyText": "Tangira ushyiramo umutungo wawe wa mbere. Bifata umunota umwe gusa.",
+    "emptyManager": "Nta mutungo urahabwa gucunga. Saba nyir'umutungo akongeremo."
+  },
+  "activity": {
+    "system": "Rental_Control",
+    "account": {
+      "signup": "Konti yafunguwe"
+    },
+    "property": {
+      "created": "Umutungo wongewemo",
+      "updated": "Amakuru y'umutungo yahinduwe",
+      "deleted": "Umutungo wasibwe",
+      "manager_assigned": "Ucunga yongewemo",
+      "manager_removed": "Ucunga yakuweho"
+    },
+    "unit": {
+      "created": "Inzu ikodeshwa yongewemo",
+      "updated": "Amakuru y'inzu yahinduwe",
+      "deleted": "Inzu ikodeshwa yasibwe"
+    },
+    "invitation": {
+      "created": "Umupangayi yatumiwe",
+      "cancelled": "Ubutumire bwahagaritswe",
+      "new_link": "Umurongo mushya w'ubutumire wakozwe",
+      "accepted": "Umupangayi yinjiye"
+    },
+    "tenancy": {
+      "ended": "Umupangayi yavuyemo",
+      "updated": "Amakuru y'ubukode yahinduwe"
+    },
+    "inspection": {
+      "created": "Isuzuma ryatangiye",
+      "completed": "Isuzuma ryarangiye",
+      "deleted": "Isuzuma ritarangiye ryasibwe"
+    },
+    "maintenance": {
+      "created": "Ikibazo cyamenyekanishijwe",
+      "updated": "Ikibazo cyo gusana cyahinduwe",
+      "status_changed": "Aho gusana bigeze hahinduwe"
+    },
+    "repair": {
+      "recorded": "Igisanwa cyanditswe",
+      "updated": "Igisanwa cyahinduwe"
+    },
+    "expense": {
+      "created": "Amafaranga yasohotse yanditswe",
+      "updated": "Amafaranga yasohotse yahinduwe",
+      "deleted": "Amafaranga yasohotse yasibwe"
+    },
+    "payment": {
+      "recorded": "Ubwishyu bw'ubukode bwanditswe",
+      "deleted": "Ubwishyu bw'ubukode bwasibwe"
+    }
+  },
+  "notifications": {
+    "subtitle": "Amakuru mashya ku mitungo yawe n'ibisanwa.",
+    "emptyTitle": "Nta butumwa buraza",
+    "emptyText": "Nihagira igikorwa kiba, uzakibona hano.",
+    "markAllRead": "Byose byasomwe",
+    "new": "Gishya",
+    "unread": "bitarasomwa",
+    "ariaCount_one": "Ubutumwa: {{count}} butarasomwa",
+    "ariaCount_other": "Ubutumwa: {{count}} butarasomwa",
+    "kinds": {
+      "request_created": "Ikibazo gishya cyamenyekanishijwe muri {{property}}, {{unit}}: {{category}} ({{reference}})",
+      "request_created_urgent": "Ikibazo CYIHUTIRWA muri {{property}}, {{unit}}: {{category}} ({{reference}})",
+      "request_status": "Ikibazo cyawe {{reference}} ubu kigeze aha: {{status}}",
+      "request_note": "Ubutumwa bushya bwa {{author}} ku kibazo {{reference}}",
+      "repair_completed": "Gusana ikibazo {{reference}} byarangiye",
+      "tenant_joined": "{{tenant}} yinjiye muri {{property}}, {{unit}}",
+      "tenancy_started": "Murakaza neza! Ubu uhujwe na {{property}}, {{unit}}",
+      "inspection_shared": "Isuzuma rya {{unit}} riteguye kurebwa ({{type}}, {{date}})",
+      "payment_recorded": "Nyir'inzu yanditse ubwishyu bw'ubukode bwa {{amount}} ku itariki {{date}}",
+      "manager_assigned": "Ubu ushobora gufasha gucunga {{property}}"
+    }
+  },
+  "photos": {
+    "hint": "Amafoto agera kuri {{max}}, buri foto itarenze MB {{size}} (JPG, PNG cyangwa WEBP).",
+    "takePhoto": "Fata ifoto",
+    "choosePhotos": "Hitamo amafoto",
+    "selected_one": "Ifoto {{count}} yahiswemo",
+    "selected_other": "Amafoto {{count}} yahiswemo",
+    "previewAlt": "Ifoto yahiswemo ya {{number}}",
+    "wrongType": "Iyi dosiye si ifoto. Hitamo ifoto ya JPG, PNG cyangwa WEBP.",
+    "tooLarge": "Iyi foto ni nini cyane. Ntigomba kurenza MB {{max}}."
+  },
+  "settings": {
+    "subtitle": "Hindura ururimi, ingano y'inyandiko n'amakuru ya konti.",
+    "display": "Ururimi n'imigaragarire",
+    "textSize": "Ingano y'inyandiko",
+    "textNormal": "Inyandiko isanzwe",
+    "textLarge": "Inyandiko nini",
+    "theme": "Amabara",
+    "light": "Urumuri",
+    "dark": "Umwijima",
+    "profile": "Amakuru yanjye",
+    "emailFixed": "Imeyili yawe ntishobora guhindurirwa hano.",
+    "profileSaved": "Amakuru yawe yabitswe.",
+    "password": "Ijambobanga",
+    "changePassword": "Hindura ijambobanga ryanjye",
+    "passwordSaved": "Ijambobanga ryawe ryahinduwe.",
+    "account": "Konti",
+    "signedInAs": "Winjiye nka {{email}} ({{role}})."
+  },
+  "tenant": {
+    "welcome": "Muraho, {{name}}",
+    "joinedTitle": "Winjiye mu nzu yawe",
+    "joinedText": "Nihagira icyangirika, kanda “Menyekanisha ikibazo”. Nyir'inzu azahita abimenya, kandi uzakurikirana gusana hano.",
+    "noHomeTitle": "Konti yawe ntirahuzwa n'inzu",
+    "noHomeText": "Saba nyir'inzu akoherereze umurongo w'ubutumire.",
+    "yourHome": "Inzu yawe",
+    "reportHint": "Hari icyangiritse cyangwa kidakora? Bimenyeshe nyir'inzu mu ntambwe nke.",
+    "activeRequests": "Ibibazo byanjye bitararangira",
+    "seeAll": "Reba byose",
+    "noActive": "Nta kibazo ufite kitararangira.",
+    "noDone": "Nta kibazo kirarangira.",
+    "recentUpdates": "Amakuru aheruka",
+    "homeDetails": "Ibyerekeye inzu yanjye",
+    "landlordContact": "Nyir'inzu",
+    "myPayments": "Ubwishyu bw'ubukode bwanjye",
+    "conditionRecords": "Isuzuma ry'inzu yanjye",
+    "conditionRecordsHint": "Amasuzuma nyir'inzu yagusangije.",
+    "inProgressTab": "Birimo gukorwa",
+    "doneTab": "Byarangiye",
+    "backHome": "Subira ku Inzu yanjye",
+    "inspectionNote": "Iyi ni inyandiko ifite itariki y'uko inzu yari imeze. Nubona hari ikitari cyo, bimenyeshe nyir'inzu.",
+    "paymentsOff": "Nyir'inzu ntarashyira hano amakuru y'ubukode.",
+    "paymentsNote": "Ubu ni ubwishyu nyir'inzu yanditse. Nubona hari ikitari cyo, vugana na nyir'inzu."
+  },
+  "landing": {
+    "tagline": "Gucunga inzu zikodeshwa mu buryo bworoshye",
+    "badge": "Byakorewe ba nyir'amazu bo mu Rwanda",
+    "title": "Kurikirana inzu ukodesha, ibisanwa n'ubukode — byose ahantu hamwe horoshye.",
+    "subtitle": "Rental_Control ibika amakuru y'uko buri nzu imeze, ifasha abapangayi kumenyekanisha ibibazo bakoresheje amafoto, kandi ikakwereka ubukode n'amafaranga yasohotse kuri buri mutungo.",
+    "ctaLandlord": "Tangira ku buntu",
+    "openApp": "Fungura konti yanjye",
+    "tenantNote": "Uri umupangayi? Nyir'inzu azakoherereza umurongo w'ubutumire wawe bwite.",
+    "exampleUrgent": "Byihutirwa: amazi ava mu gikoni",
+    "exampleRent": "Ubukode butarishyurwa",
+    "exampleExample": "urugero",
+    "exampleDone": "Gusana byarangiye",
+    "featuresTitle": "Ibyo ushobora gukora",
+    "features": {
+      "properties": {
+        "title": "Imitungo yawe yose",
+        "text": "Reba buri nzu, apartema n'umupangayi ku rupapuro rumwe."
+      },
+      "passport": {
+        "title": "Pasiporo y'inzu y'ikoranabuhanga",
+        "text": "Amateka afite amatariki ya buri nzu: amasuzuma, amafoto, ibisanwa n'ibyo byatwaye."
+      },
+      "repairs": {
+        "title": "Gusana nta guhamagarana",
+        "text": "Abapangayi bamenyekanisha ibibazo mu gukanda gake. Ukurikirana buri gisanwa kuva gitangiye kugeza kirangiye."
+      },
+      "photos": {
+        "title": "Amafoto nk'ibimenyetso",
+        "text": "Gereranya amafoto yo kwinjira n'ayo mu isuzuma rikurikiraho, ari iruhande rw'ayandi."
+      },
+      "money": {
+        "title": "Ubukode n'amafaranga yasohotse",
+        "text": "Andika ubukode wakiriye n'amafaranga wakoresheje, urebe icyo buri mutungo winjiza."
+      },
+      "languages": {
+        "title": "Ururimi rwawe",
+        "text": "Koresha Rental_Control mu Cyongereza, Ikinyarwanda cyangwa Igifaransa."
+      }
+    }
+  },
+  "help": {
+    "title": "Ubufasha",
+    "subtitle": "Ibisubizo bigufi ku bibazo bikunze kubazwa. Kanda ku kibazo urebe igisubizo.",
+    "topics": {
+      "addProperty": {
+        "q": "Nashyiramo umutungo nte?",
+        "a": "Jya kuri “Imitungo yanjye” ukande “Ongeraho umutungo”. Kurikiza intambwe 4 ngufi. Hanyuma wongeremo buri nzu (apartema, inzu cyangwa icyumba) ukodesha."
+      },
+      "inviteTenant": {
+        "q": "Nongeramo umupangayi nte?",
+        "a": "Fungura inzu ikodeshwa, uhitemo “Umupangayi”, ukande “Tumira umupangayi”. Andika amazina na imeyili by'umupangayi. Uzabona umurongo bwite: wohereze kuri imeyili, SMS cyangwa WhatsApp. Umupangayi awufungura agafungura konti ye."
+      },
+      "reportProblem": {
+        "q": "Menyekanisha ikibazo nte?",
+        "a": "Kanda kuri buto nini “Menyekanisha ikibazo”. Hitamo ubwoko bw'ikibazo, ugisobanure mu magambo make, ushyireho ifoto niba bishoboka, hanyuma ukande “Ohereza”. Uzahabwa nimero y'ikibazo."
+      },
+      "trackRepair": {
+        "q": "Nakurikirana gusana nte?",
+        "a": "Fungura “Ibyo nasabye” (abapangayi) cyangwa “Gusana” (ba nyir'inzu). Buri kibazo cyerekana aho kigeze n'amateka ya buri ntambwe: cyamenyekanishijwe, cyasuzumwe, gusana byatangiye, cyakemutse."
+      },
+      "inspection": {
+        "q": "Isuzuma ry'inzu ni iki?",
+        "a": "Isuzuma ni igenzura ry'inzu rifite itariki, icyumba ku kindi. Kuri buri kintu hitamo Ni byiza, Bikeneye kwitabwaho cyangwa Byangiritse, kandi ushyireho amafoto. Iyo urangije, inyandiko irafungwa kugira ngo izizerwe nyuma, urugero igihe umupangayi avuyemo."
+      },
+      "rent": {
+        "q": "Nandika ubukode nte?",
+        "a": "Jya kuri “Ubukode n'imari” ukande “Andika ubwishyu”. Rental_Control ibika inyandiko gusa — ntiyohereza cyangwa ngo yakire amafaranga."
+      },
+      "language": {
+        "q": "Nahindura ururimi nte?",
+        "a": "Koresha “Ururimi” hejuru kuri buri paji. Icyo uhisemo kibikwa muri konti yawe."
+      },
+      "textSize": {
+        "q": "Nshobora kongera ingano y'inyandiko?",
+        "a": "Yego. Jya ku Igenamiterere (cyangwa Umwirondoro) uhitemo “Inyandiko nini”. Ushobora no gukoresha zoom ya mushakisha yawe."
+      }
+    },
+    "contactTitle": "Uracyakeneye ubufasha?",
+    "contactText": "Vugana n'itsinda rifasha rya Rental_Control. Dusubiza mu Cyongereza, Ikinyarwanda n'Igifaransa.",
+    "contactPhone": "Telefoni: izashyirwaho n'ucunga sisitemu",
+    "contactEmail": "Imeyili: izashyirwaho n'ucunga sisitemu"
+  },
+  "privacy": {
+    "title": "Amakuru ku buzima bwite",
+    "subtitle": "Uko Rental_Control ikoresha amakuru yawe, mu magambo yoroshye.",
+    "sections": {
+      "what": {
+        "title": "Ibyo tubika",
+        "text": "Amazina yawe, imeyili na nimero ya telefoni; imitungo n'inzu ucunga; amasuzuma, amafoto, ibibazo byo gusana, amafaranga yasohotse n'inyandiko z'ubukode wowe cyangwa abapangayi bawe mwashyizemo."
+      },
+      "why": {
+        "title": "Impamvu tubibika",
+        "text": "Ni ugukoresha serivisi gusa: kukwereka inyandiko zawe, kumenyesha abantu amakuru mashya, no kubika amateka yizewe ya buri nzu."
+      },
+      "who": {
+        "title": "Ababibona",
+        "text": "Ba nyir'inzu babona imitungo yabo gusa. Abacunga imitungo babona gusa iyo nyirayo yabahaye. Abapangayi babona inzu yabo gusa, ibibazo byabo n'inyandiko basangijwe. Umupangayi mushya ntashobora kubona ibibazo by'uwamubanjirije."
+      },
+      "photos": {
+        "title": "Amafoto n'ibimenyetso",
+        "text": "Amafoto ni ibanga. Yerekwa gusa abantu binjiye bemerewe kubona iyo nyandiko. Amasuzuma yarangiye ntashobora guhindurwa, bityo agakomeza kwizerwa. Rental_Control ntijya ifata icyemezo cy'uwateje icyangiritse — ni abantu babyemeza."
+      },
+      "rights": {
+        "title": "Uburenganzira bwawe",
+        "text": "Ushobora gukosora amakuru yawe mu Igenamiterere. Kugira ngo usibe konti yawe cyangwa ubone kopi y'amakuru yawe, vugana n'abafasha."
+      },
+      "storage": {
+        "title": "Aho bibikwa",
+        "text": "Amakuru abikwa kuri seriveri zahiswemo n'ucunga iyi Rental_Control. Amagambobanga abikwa mu buryo burinzwe (bwahinduwe ntibusomeke)."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Iyi paji ntiyabonetse",
+    "text": "Iyi paji ntibaho cyangwa ntiwemerewe kuyibona.",
+    "goHome": "Jya ku ipaji yanjye y'ibanze"
+  },
+  "validation": {
+    "required": "Uzuza aha, ni ngombwa.",
+    "blank": "Uzuza aha, ni ngombwa.",
+    "null": "Uzuza aha, ni ngombwa.",
+    "invalid": "Ibyanditswe aha ntibikwiye.",
+    "invalid_choice": "Hitamo kimwe mu biri ku rutonde.",
+    "email": "Andika imeyili nyayo, nka izina@urugero.com.",
+    "nameRequired": "Andika izina.",
+    "passwordLength": "Ijambobanga rigomba kugira nibura inyuguti 8.",
+    "passwordsMatch": "Amagambobanga yombi ntabwo ari amwe.",
+    "wholeNumber": "Andika umubare wuzuye udafite ibice, nka 45000.",
+    "min_value": "Uyu mubare ni muto cyane.",
+    "max_value": "Uyu mubare ni munini cyane.",
+    "max_length": "Iyi nyandiko ni ndende cyane.",
+    "min_length": "Iyi nyandiko ni ngufi cyane.",
+    "email_taken": "Hari konti isanzwe ifite iyi imeyili. Gerageza kwinjira.",
+    "weak_password": "Iri jambobanga ryoroshye cyane gukekwa. Hitamo irirerire.",
+    "wrong_password": "Ijambobanga ukoresha ubu si ryo.",
+    "invalid_reset_link": "Uyu murongo wo guhindura ijambobanga wararangiye cyangwa wamaze gukoreshwa.",
+    "invalid_image": "Hitamo ifoto (JPG, PNG cyangwa WEBP).",
+    "file_too_large": "Iyi dosiye ni nini cyane.",
+    "invalid_document": "Iyi dosiye ntiyashoboye gusomwa.",
+    "duplicate_unit": "Uyu mutungo usanzwe ufite inzu ifite iri zina.",
+    "not_allowed": "Ntiwemerewe guhitamo ibi.",
+    "too_short": "Andika birenzeho gato.",
+    "already_counted": "Ibyatwaye iki gisanwa byamaze kwandikwa. Hindura igisanwa aho kongeraho andi mafaranga yasohotse.",
+    "before_tenancy": "Iyi tariki iri mbere y'uko umupangayi yinjira.",
+    "end_before_start": "Itariki yo kurangiza igomba kuba nyuma y'iyo gutangira.",
+    "not_tenant_email": "Iyi imeyili ni iya konti ya nyir'inzu cyangwa ucunga. Koresha imeyili y'umupangayi ubwe.",
+    "manager_not_found": "Nta konti y'ucunga imitungo ifite iyi imeyili yabonetse. Mubwire abanze afungure konti.",
+    "invalid_date": "Andika itariki nyayo."
+  },
+  "errors": {
+    "unknown": "Hari ikitagenze neza. Ongera ugerageze.",
+    "validation_error": "Reba amakuru yagaragajwe.",
+    "network_error": "Ntitwabashije kugera kuri Rental_Control. Reba niba interineti ikora, wongere ugerageze.",
+    "not_authenticated": "Injira kugira ngo ukomeze.",
+    "authentication_failed": "Ongera winjire.",
+    "invalid_credentials": "Imeyili cyangwa ijambobanga si byo.",
+    "permission_denied": "Ntiwemerewe gukora ibi.",
+    "not_found": "Ntitwabibonye. Bishobora kuba byarasibwe.",
+    "throttled": "Wagerageje inshuro nyinshi. Tegereza umunota umwe wongere ugerageze.",
+    "csrf_failed": "Igihe cyawe cyarangiye. Ongera ufungure paji wongere ugerageze.",
+    "conflict": "Iki gikorwa ntigishoboka ubu.",
+    "error": "Hari ikitagenze neza. Ongera ugerageze.",
+    "parse_error": "Hari ikitagenze neza. Ongera ugerageze.",
+    "http_500": "Seriveri yagize ikibazo. Ongera ugerageze nyuma y'akanya gato.",
+    "owner_only": "Nyir'umutungo wenyine ni we ushobora gukora ibi.",
+    "staff_only": "Nyir'inzu cyangwa ucunga wenyine ni we ushobora gukora ibi.",
+    "property_has_history": "Uyu mutungo ufite abapangayi, amasuzuma, ibisanwa cyangwa amafaranga yasohotse byanditswe, bityo ntushobora gusibwa. Amateka yawo arabikwa.",
+    "unit_has_history": "Iyi nzu ifite amateka (abapangayi, amasuzuma, ibisanwa cyangwa amafaranga yasohotse), bityo ntishobora gusibwa.",
+    "unit_occupied": "Hari umuntu usanzwe uba muri iyi nzu. Banza wandike ko yavuyemo.",
+    "unit_vacant": "Nta muntu uba muri iyi nzu ubu.",
+    "end_before_start": "Itariki yo kurangiza igomba kuba nyuma y'iyo gutangira.",
+    "invitation_not_found": "Uyu murongo w'ubutumire ntukora. Reba umurongo cyangwa usabe nyir'inzu undi.",
+    "invitation_accepted": "Ubu butumire bwamaze gukoreshwa.",
+    "invitation_expired": "Igihe cy'ubu butumire cyarangiye. Saba nyir'inzu undi murongo.",
+    "invitation_cancelled": "Ubu butumire bwahagaritswe. Saba nyir'inzu undi murongo.",
+    "invitation_closed": "Ubu butumire ntibugikora.",
+    "sign_in_required": "Banza winjire ukoresheje imeyili watumiweho.",
+    "wrong_account": "Ubu butumire ni ubw'indi imeyili.",
+    "not_tenant_account": "Ubu butumire bushobora kwemerwa na konti y'umupangayi gusa.",
+    "no_home": "Konti yawe ntirahuzwa n'inzu. Saba nyir'inzu agutumire.",
+    "invalid_transition": "Iyi ntambwe ntishoboka uhereye aho ikibazo kigeze ubu.",
+    "inspection_locked": "Iri suzuma ryarangiye kandi ribitswe burundu. Ntirishobora guhindurwa.",
+    "inspection_empty": "Banza wongeremo nibura icyumba kimwe mbere yo kurangiza.",
+    "repair_exists": "Hari igisanwa cyamaze kwandikwa kuri iki kibazo.",
+    "request_closed": "Iki kibazo cyafunzwe.",
+    "too_many_photos": "Iki kibazo gifite umubare ntarengwa w'amafoto.",
+    "no_finance_access": "Ntiwemerewe kureba cyangwa kwandika amafaranga y'uyu mutungo.",
+    "repair_expense": "Aya ni amafaranga y'igisanwa. Yahindurire ku kibazo cyo gusana."
+  },
+  "dates": {
+    "months": {
+      "1": "Mutarama",
+      "2": "Gashyantare",
+      "3": "Werurwe",
+      "4": "Mata",
+      "5": "Gicurasi",
+      "6": "Kamena",
+      "7": "Nyakanga",
+      "8": "Kanama",
+      "9": "Nzeri",
+      "10": "Ukwakira",
+      "11": "Ugushyingo",
+      "12": "Ukuboza"
+    },
+    "justNow": "ubu nyine",
+    "minutesAgo_one": "hashize umunota {{count}}",
+    "minutesAgo_other": "hashize iminota {{count}}",
+    "hoursAgo_one": "hashize isaha {{count}}",
+    "hoursAgo_other": "hashize amasaha {{count}}",
+    "daysAgo_one": "hashize umunsi {{count}}",
+    "daysAgo_other": "hashize iminsi {{count}}"
+  }
+}

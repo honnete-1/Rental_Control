@@ -1,0 +1,108 @@
+{
+  "newInspection": "Record an inspection",
+  "types": {
+    "move_in": "Move-in",
+    "periodic": "Regular check",
+    "move_out": "Move-out"
+  },
+  "typeHelp": {
+    "move_in": "When a new tenant arrives.",
+    "periodic": "A normal check during the tenancy.",
+    "move_out": "When a tenant leaves."
+  },
+  "status": {
+    "draft": "Not finished",
+    "completed": "Completed"
+  },
+  "conditions": {
+    "good": "Good",
+    "needs_attention": "Needs Attention",
+    "damaged": "Damaged",
+    "not_checked": "Not Checked"
+  },
+  "elements": {
+    "general": "General condition",
+    "doors_windows": "Doors and windows",
+    "plumbing": "Plumbing (water)",
+    "electrical": "Electricity (lights, sockets)",
+    "walls_ceiling": "Walls and ceiling",
+    "flooring": "Floor",
+    "fixtures": "Fixtures and fittings"
+  },
+  "rooms": {
+    "livingRoom": "Living room",
+    "kitchen": "Kitchen",
+    "bedroom1": "Bedroom 1",
+    "bedroom2": "Bedroom 2",
+    "bathroom": "Bathroom",
+    "toilet": "Toilet",
+    "corridor": "Corridor",
+    "outside": "Outside and compound"
+  },
+  "list": {
+    "title": "Property Condition History",
+    "subtitle": "All inspections of your units, newest first.",
+    "emptyTitle": "No inspections yet",
+    "emptyText": "Record a move-in inspection to keep proof of each home's condition.",
+    "photos_one": "{{count}} photo",
+    "photos_other": "{{count}} photos",
+    "problems_one": "{{count}} problem",
+    "problems_other": "{{count}} problems"
+  },
+  "wizard": {
+    "step1": "Which unit?",
+    "step2": "Which rooms?",
+    "step3": "Check each room",
+    "step4": "Add photos",
+    "step5": "Check and finish",
+    "chooseUnit": "Please choose the unit you are inspecting.",
+    "chooseRoom": "Please choose at least one room.",
+    "typeLabel": "Kind of inspection",
+    "date": "Date of inspection",
+    "inspector": "Inspected by",
+    "roomsHelp": "Tick the rooms in this unit. You can add other rooms below.",
+    "hasWater": "Includes water and taps",
+    "hasWaterShort": "Has water",
+    "addRoom": "Add another room",
+    "roomName": "Room name",
+    "startChecklist": "Start the checklist",
+    "roomTitle": "{{room}} (room {{current}} of {{total}})",
+    "conditionHelp": "For each part, choose the word that best describes it. Describe any problem you see.",
+    "allGood": "Mark everything in this room as Good",
+    "describeProblem": "Describe what you see",
+    "notesExample": "For example: small crack above the window.",
+    "autosave": "Your progress is saved each time you press Next.",
+    "photosHelp": "Take photos of each room, especially of any damage.",
+    "generalPhoto": "General photos",
+    "savedPhotos_one": "{{count}} photo saved",
+    "savedPhotos_other": "{{count}} photos saved",
+    "photosOptional": "Photos are optional but strongly recommended.",
+    "summary": "Summary",
+    "summaryHint": "A short overall note, for example “Clean and ready for the tenant.”",
+    "share": "Share this record with the tenant",
+    "shareHint": "The current tenant can see the conditions and photos (not your private notes).",
+    "lockWarning": "When you finish, this inspection is locked as a permanent, dated record. It cannot be changed afterwards.",
+    "finish": "Finish and lock",
+    "completed": "The inspection was saved and locked.",
+    "draftSaved": "Your inspection was saved. You can continue later."
+  },
+  "detail": {
+    "continue": "Continue inspection",
+    "deleteDraft": "Delete draft",
+    "deleteConfirm": "This unfinished inspection and its photos will be removed. This cannot be undone.",
+    "deleted": "The draft was deleted.",
+    "print": "Print",
+    "lockedTitle": "Permanent record",
+    "lockedText": "This inspection is completed and can no longer be changed.",
+    "draftText": "This inspection is not finished yet. Continue it to finish and lock it."
+  },
+  "compare": {
+    "title": "Compare photos",
+    "room": "Room",
+    "allRooms": "All rooms",
+    "earlier": "Earlier photo",
+    "later": "Later photo",
+    "needTwo": "At least two photos are needed to compare.",
+    "disclaimer": "These photos are dated records only. They do not decide who is responsible for any damage — that is for people to agree."
+  }
+}

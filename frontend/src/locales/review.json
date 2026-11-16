@@ -1,0 +1,42 @@
+{
+  "_about": "Translation review register. ALL Kinyarwanda (rw) strings were drafted without a native-speaker review and must be checked before production. The keys below are the terms we are least sure about. 'englishFallback' lists keys intentionally left untranslated (shown in English) — currently none. Format: lang:namespace:key.",
+  "status": {
+    "en": "source",
+    "fr": "drafted — professional review recommended",
+    "rw": "drafted — NATIVE SPEAKER REVIEW REQUIRED before production"
+  },
+  "englishFallback": [],
+  "needsNativeReview": [
+    "rw:common:nav.properties",
+    "rw:common:nav.maintenance",
+    "rw:common:nav.inspections",
+    "rw:common:nav.expenses",
+    "rw:common:nav.settings",
+    "rw:common:nav.notifications",
+    "rw:common:roles.manager",
+    "rw:common:search.unit",
+    "rw:common:landing.features.passport.title",
+    "rw:common:privacy.sections.storage.text",
+    "rw:common:errors.csrf_failed",
+    "rw:properties:propertyTypes.compound",
+    "rw:properties:unitTypes.studio",
+    "rw:properties:unitForm.bathrooms",
+    "rw:properties:passport.title",
+    "rw:properties:passport.conditionHistory",
+    "rw:maintenance:categories.walls_ceiling",
+    "rw:maintenance:categories.appliances",
+    "rw:maintenance:priorities.low",
+    "rw:maintenance:detail.priority",
+    "rw:inspections:conditions.needs_attention",
+    "rw:inspections:elements.flooring",
+    "rw:inspections:elements.fixtures",
+    "rw:inspections:rooms.corridor",
+    "rw:inspections:rooms.bathroom",
+    "rw:inspections:rooms.toilet",
+    "rw:finances:summary.netCashFlow",
+    "rw:finances:summary.outstanding",
+    "rw:finances:definitions.excluded",
+    "rw:finances:categories.taxes_fees",
+    "rw:finances:expenses.total"
+  ]
+}

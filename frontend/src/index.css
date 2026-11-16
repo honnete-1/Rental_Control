@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Design tokens. Brand colours from the brief, with darker shades used wherever
+ * text sits on a colour so contrast meets WCAG AA (4.5:1 for normal text).
+ */
+@theme {
+  --font-sans: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-navy-50: #eef3f8;
+  --color-navy-100: #d6e1ec;
+  --color-navy-600: #1f3d5f;
+  --color-navy-700: #18324f;
+  --color-navy-800: #142b45; /* primary dark navy */
+  --color-navy-900: #0c1c2e;
+
+  --color-teal-50: #effbf9;
+  --color-teal-100: #ccf3ee;
+  --color-teal-500: #0d9488; /* brand teal (decorative / large elements) */
+  --color-teal-600: #0f766e; /* teal for text and buttons: 5.5:1 on white */
+  --color-teal-700: #115e59;
+
+  --color-surface: #ffffff;
+  --color-canvas: #f8fafc;
+  --color-ink: #0f172a;
+  --color-muted: #475569; /* 7.5:1 on white */
+  --color-line: #cbd5e1;
+
+  --color-success-50: #f0fdf4;
+  --color-success-600: #16a34a;
+  --color-success-700: #15803d;
+  --color-warning-50: #fffbeb;
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+  --color-danger-50: #fef2f2;
+  --color-danger-600: #dc2626;
+  --color-danger-700: #b91c1c;
+
+  --radius-xl: 0.875rem;
+  --radius-2xl: 1.25rem;
+}
+
+@layer base {
+  html {
+    font-size: 106.25%; /* 17px body text by default */
+    -webkit-text-size-adjust: 100%;
+  }
+  html[data-text-size="large"] {
+    font-size: 125%; /* 20px */
+  }
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    line-height: 1.55;
+  }
+  .dark body {
+    background-color: #0b1220;
+    color: #e2e8f0;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-teal-500);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-navy-800 dark:text-white;
+    line-height: 1.25;
+  }
+  a {
+    text-underline-offset: 3px;
+  }
+  button,
+  [role="button"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select {
+    cursor: pointer;
+  }
+}
+
+/* Respect reduced motion: no transitions or animations. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.skip-link {
+  @apply sr-only;
+}
+.skip-link:focus {
+  @apply not-sr-only fixed left-3 top-3 z-[100] rounded-lg bg-navy-800 px-4 py-3 text-white;
+}
+
+/* Dark mode surfaces */
+.dark .bg-surface {
+  background-color: #111a2e;
+}
+.dark .bg-canvas {
+  background-color: #0b1220;
+}
+.dark .text-ink {
+  color: #e2e8f0;
+}
+.dark .text-muted {
+  color: #a9b6c8;
+}
+.dark .border-line {
+  border-color: #2a3a55;
+}

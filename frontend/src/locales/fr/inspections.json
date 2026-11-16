@@ -1,0 +1,108 @@
+{
+  "newInspection": "Faire un état des lieux",
+  "types": {
+    "move_in": "Entrée",
+    "periodic": "Contrôle régulier",
+    "move_out": "Sortie"
+  },
+  "typeHelp": {
+    "move_in": "À l'arrivée d'un nouveau locataire.",
+    "periodic": "Un contrôle normal pendant la location.",
+    "move_out": "Au départ d'un locataire."
+  },
+  "status": {
+    "draft": "Pas terminé",
+    "completed": "Terminé"
+  },
+  "conditions": {
+    "good": "Bon",
+    "needs_attention": "À surveiller",
+    "damaged": "Endommagé",
+    "not_checked": "Non vérifié"
+  },
+  "elements": {
+    "general": "État général",
+    "doors_windows": "Portes et fenêtres",
+    "plumbing": "Plomberie (eau)",
+    "electrical": "Électricité (lampes, prises)",
+    "walls_ceiling": "Murs et plafond",
+    "flooring": "Sol",
+    "fixtures": "Équipements et installations"
+  },
+  "rooms": {
+    "livingRoom": "Salon",
+    "kitchen": "Cuisine",
+    "bedroom1": "Chambre 1",
+    "bedroom2": "Chambre 2",
+    "bathroom": "Salle de bain",
+    "toilet": "Toilettes",
+    "corridor": "Couloir",
+    "outside": "Extérieur et parcelle"
+  },
+  "list": {
+    "title": "Historique de l'état des logements",
+    "subtitle": "Tous les états des lieux de vos logements, les plus récents d'abord.",
+    "emptyTitle": "Aucun état des lieux pour l'instant",
+    "emptyText": "Faites un état des lieux d'entrée pour garder une preuve de l'état de chaque logement.",
+    "photos_one": "{{count}} photo",
+    "photos_other": "{{count}} photos",
+    "problems_one": "{{count}} problème",
+    "problems_other": "{{count}} problèmes"
+  },
+  "wizard": {
+    "step1": "Quel logement ?",
+    "step2": "Quelles pièces ?",
+    "step3": "Contrôler chaque pièce",
+    "step4": "Ajouter des photos",
+    "step5": "Vérifier et terminer",
+    "chooseUnit": "Veuillez choisir le logement à inspecter.",
+    "chooseRoom": "Veuillez choisir au moins une pièce.",
+    "typeLabel": "Type d'état des lieux",
+    "date": "Date de l'état des lieux",
+    "inspector": "Réalisé par",
+    "roomsHelp": "Cochez les pièces de ce logement. Vous pouvez ajouter d'autres pièces ci-dessous.",
+    "hasWater": "Comprend l'eau et les robinets",
+    "hasWaterShort": "Avec eau",
+    "addRoom": "Ajouter une autre pièce",
+    "roomName": "Nom de la pièce",
+    "startChecklist": "Commencer le contrôle",
+    "roomTitle": "{{room}} (pièce {{current}} sur {{total}})",
+    "conditionHelp": "Pour chaque élément, choisissez le mot qui le décrit le mieux. Décrivez tout problème que vous voyez.",
+    "allGood": "Tout marquer comme Bon dans cette pièce",
+    "describeProblem": "Décrivez ce que vous voyez",
+    "notesExample": "Par exemple : petite fissure au-dessus de la fenêtre.",
+    "autosave": "Votre progression est enregistrée chaque fois que vous appuyez sur Suivant.",
+    "photosHelp": "Photographiez chaque pièce, surtout les dommages.",
+    "generalPhoto": "Photos générales",
+    "savedPhotos_one": "{{count}} photo enregistrée",
+    "savedPhotos_other": "{{count}} photos enregistrées",
+    "photosOptional": "Les photos sont facultatives mais fortement recommandées.",
+    "summary": "Résumé",
+    "summaryHint": "Une courte note générale, par exemple « Propre et prêt pour le locataire. »",
+    "share": "Partager ce relevé avec le locataire",
+    "shareHint": "Le locataire actuel peut voir les états et les photos (pas vos notes privées).",
+    "lockWarning": "Une fois terminé, cet état des lieux est verrouillé comme relevé daté et définitif. Il ne pourra plus être modifié.",
+    "finish": "Terminer et verrouiller",
+    "completed": "L'état des lieux a été enregistré et verrouillé.",
+    "draftSaved": "Votre état des lieux a été enregistré. Vous pourrez le continuer plus tard."
+  },
+  "detail": {
+    "continue": "Continuer l'état des lieux",
+    "deleteDraft": "Supprimer le brouillon",
+    "deleteConfirm": "Cet état des lieux non terminé et ses photos seront supprimés. Cette action est irréversible.",
+    "deleted": "Le brouillon a été supprimé.",
+    "print": "Imprimer",
+    "lockedTitle": "Relevé définitif",
+    "lockedText": "Cet état des lieux est terminé et ne peut plus être modifié.",
+    "draftText": "Cet état des lieux n'est pas encore terminé. Continuez-le pour le terminer et le verrouiller."
+  },
+  "compare": {
+    "title": "Comparer des photos",
+    "room": "Pièce",
+    "allRooms": "Toutes les pièces",
+    "earlier": "Photo plus ancienne",
+    "later": "Photo plus récente",
+    "needTwo": "Il faut au moins deux photos pour comparer.",
+    "disclaimer": "Ces photos sont seulement des relevés datés. Elles ne décident pas qui est responsable d'un dommage — c'est aux personnes de se mettre d'accord."
+  }
+}

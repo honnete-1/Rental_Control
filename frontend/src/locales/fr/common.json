@@ -1,0 +1,521 @@
+{
+  "yes": "Oui",
+  "no": "Non",
+  "demoAccount": "Ceci est un compte de démonstration avec des données fictives, uniquement pour les tests.",
+  "nav": {
+    "main": "Menu principal",
+    "tenantTabs": "Menu locataire",
+    "menu": "Menu",
+    "breadcrumb": "Vous êtes ici",
+    "skipToContent": "Aller au contenu principal",
+    "collapseMenu": "Réduire le menu",
+    "expandMenu": "Afficher tout le menu",
+    "overview": "Vue d'ensemble",
+    "properties": "Mes biens",
+    "tenants": "Locataires",
+    "maintenance": "Entretien",
+    "inspections": "États des lieux",
+    "expenses": "Dépenses",
+    "finances": "Loyers et finances",
+    "notifications": "Notifications",
+    "help": "Aide et assistance",
+    "settings": "Paramètres",
+    "myHome": "Mon logement",
+    "reportProblem": "Signaler un problème",
+    "myRequests": "Mes demandes",
+    "profile": "Profil"
+  },
+  "actions": {
+    "add": "Ajouter",
+    "back": "Retour",
+    "next": "Suivant",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "saveChanges": "Enregistrer les modifications",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "remove": "Retirer",
+    "confirm": "Oui, continuer",
+    "noGoBack": "Non, revenir",
+    "done": "Terminé",
+    "change": "Modifier",
+    "tryAgain": "Réessayer",
+    "actions": "Actions"
+  },
+  "states": {
+    "loading": "Chargement, veuillez patienter…",
+    "errorTitle": "Un problème est survenu",
+    "saved": "Vos modifications ont été enregistrées."
+  },
+  "form": {
+    "optional": "facultatif",
+    "choose": "— Choisir —",
+    "other": "Autre"
+  },
+  "stepper": {
+    "stepOf": "Étape {{current}} sur {{total}}",
+    "progress": "Progression",
+    "done": "terminée"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "roles": {
+    "landlord": "Propriétaire (bailleur)",
+    "manager": "Gestionnaire immobilier",
+    "tenant": "Locataire",
+    "admin": "Administrateur"
+  },
+  "search": {
+    "label": "Rechercher",
+    "placeholder": "Rechercher un bien, un locataire, une demande…",
+    "noResults": "Aucun résultat. Essayez un autre mot.",
+    "property": "Bien",
+    "unit": "Logement",
+    "tenant": "Locataire",
+    "request": "Demande de réparation"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "signUp": "Créer un compte",
+    "signInTitle": "Bon retour",
+    "signInSubtitle": "Connectez-vous avec votre e-mail et votre mot de passe.",
+    "signUpTitle": "Créer votre compte",
+    "signUpSubtitle": "C'est gratuit et cela prend environ une minute.",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "passwordAgain": "Saisissez à nouveau le mot de passe",
+    "passwordHint": "Au moins 8 caractères. Évitez les mots de passe simples comme 12345678.",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "fullName": "Nom complet",
+    "phone": "Numéro de téléphone",
+    "phoneHint": "Vos locataires pourront l'utiliser pour vous appeler.",
+    "iAm": "Je suis…",
+    "roleHint": {
+      "landlord": "Je possède des maisons ou des appartements en location.",
+      "manager": "Je gère des biens pour un propriétaire."
+    },
+    "createAccount": "Créer mon compte",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "noAccount": "Nouveau sur Rental_Control ?",
+    "forgotPassword": "J'ai oublié mon mot de passe",
+    "tenantHint": "Locataires : utilisez le lien d'invitation envoyé par votre bailleur.",
+    "forgotTitle": "Mot de passe oublié ?",
+    "forgotSubtitle": "Saisissez votre e-mail. Nous vous enverrons un lien pour choisir un nouveau mot de passe.",
+    "sendResetLink": "Envoyer le lien",
+    "resetSentTitle": "Consultez votre messagerie",
+    "resetSentText": "Si un compte existe pour cet e-mail, un lien de réinitialisation vous a été envoyé. Il reste valable pendant une durée limitée.",
+    "backToSignIn": "Retour à la connexion",
+    "resetTitle": "Choisir un nouveau mot de passe",
+    "saveNewPassword": "Enregistrer mon nouveau mot de passe",
+    "resetDoneTitle": "Votre mot de passe a été changé",
+    "resetDoneText": "Vous pouvez maintenant vous connecter avec votre nouveau mot de passe.",
+    "requestNewLink": "Demander un nouveau lien"
+  },
+  "join": {
+    "title": "Rejoindre votre logement sur Rental_Control",
+    "intro": "{{landlord}} vous invite à {{property}}, {{unit}}, à partir du {{date}}.",
+    "createAccountFor": "Créez votre compte pour {{email}}.",
+    "acceptButton": "Rejoindre mon logement",
+    "signInFirst": "Vous avez déjà un compte avec {{email}}. Connectez-vous d'abord, puis revenez à ce lien.",
+    "wrongAccount": "Cette invitation est destinée à {{email}}. Déconnectez-vous et connectez-vous avec cet e-mail.",
+    "askLandlord": "Demandez à votre bailleur de vous envoyer un nouveau lien d'invitation.",
+    "status": {
+      "accepted": "Cette invitation a déjà été utilisée",
+      "expired": "Cette invitation a expiré",
+      "cancelled": "Cette invitation a été annulée",
+      "pending": "Cette invitation est en attente"
+    }
+  },
+  "onboarding": {
+    "title": "Bienvenue, {{name}} !",
+    "subtitle": "Configurons votre premier bien. Voici les prochaines étapes :",
+    "steps": {
+      "property": {
+        "title": "Ajouter un bien",
+        "text": "Donnez-lui un nom, par exemple « Résidence Kibagabaga », et ajoutez une photo si vous le souhaitez."
+      },
+      "unit": {
+        "title": "Ajouter les logements",
+        "text": "Chaque appartement, maison ou chambre que vous louez. Par exemple A1, A2, B1."
+      },
+      "tenant": {
+        "title": "Inviter vos locataires",
+        "text": "Envoyez à chaque locataire un lien privé. Ils pourront ensuite signaler des problèmes depuis leur téléphone."
+      },
+      "dashboard": {
+        "title": "Tout suivre depuis la vue d'ensemble",
+        "text": "Voyez quelles réparations attendent et combien de loyer vous avez encaissé."
+      }
+    },
+    "start": "Ajouter mon premier bien",
+    "skip": "Plus tard"
+  },
+  "dashboard": {
+    "greeting": "Bonjour, {{name}}",
+    "subtitle": "Voici ce qui se passe aujourd'hui dans vos biens.",
+    "needsAttention": "À traiter en priorité",
+    "allGood": "Rien ne demande votre attention pour le moment.",
+    "rentOverdue": "{{name}} a un loyer impayé : {{amount}}",
+    "vacantUnit": "Ce logement est vide — invitez un locataire",
+    "summary": "Vos biens en un coup d'œil",
+    "properties": "Biens",
+    "units": "Logements",
+    "occupiedVacant": "{{occupied}} occupés, {{vacant}} vides",
+    "openRequests": "Réparations en cours",
+    "newCount_one": "{{count}} nouvelle",
+    "newCount_other": "{{count}} nouvelles",
+    "urgentRequests": "Problèmes urgents",
+    "moneyThisMonth": "L'argent ce mois-ci",
+    "overdueTenants_one": "{{count}} locataire en retard",
+    "overdueTenants_other": "{{count}} locataires en retard",
+    "quickActions": "Actions rapides",
+    "recentRepairs": "Réparations récentes",
+    "noRepairs": "Aucune réparation enregistrée pour l'instant.",
+    "recentActivity": "Activité récente",
+    "emptyTitle": "Vous n'avez encore aucun bien",
+    "emptyText": "Commencez par ajouter votre premier bien. Cela ne prend qu'une minute.",
+    "emptyManager": "Aucun bien ne vous a encore été confié. Demandez au propriétaire de vous ajouter."
+  },
+  "activity": {
+    "system": "Rental_Control",
+    "account": {
+      "signup": "Compte créé"
+    },
+    "property": {
+      "created": "Bien ajouté",
+      "updated": "Informations du bien modifiées",
+      "deleted": "Bien supprimé",
+      "manager_assigned": "Gestionnaire ajouté",
+      "manager_removed": "Gestionnaire retiré"
+    },
+    "unit": {
+      "created": "Logement ajouté",
+      "updated": "Informations du logement modifiées",
+      "deleted": "Logement supprimé"
+    },
+    "invitation": {
+      "created": "Locataire invité",
+      "cancelled": "Invitation annulée",
+      "new_link": "Nouveau lien d'invitation créé",
+      "accepted": "Locataire arrivé"
+    },
+    "tenancy": {
+      "ended": "Départ du locataire",
+      "updated": "Informations de location modifiées"
+    },
+    "inspection": {
+      "created": "État des lieux commencé",
+      "completed": "État des lieux terminé",
+      "deleted": "Brouillon d'état des lieux supprimé"
+    },
+    "maintenance": {
+      "created": "Problème signalé",
+      "updated": "Demande de réparation modifiée",
+      "status_changed": "Statut de réparation modifié"
+    },
+    "repair": {
+      "recorded": "Réparation enregistrée",
+      "updated": "Réparation modifiée"
+    },
+    "expense": {
+      "created": "Dépense enregistrée",
+      "updated": "Dépense modifiée",
+      "deleted": "Dépense supprimée"
+    },
+    "payment": {
+      "recorded": "Paiement de loyer enregistré",
+      "deleted": "Paiement de loyer supprimé"
+    }
+  },
+  "notifications": {
+    "subtitle": "Les nouvelles de vos biens et de vos réparations.",
+    "emptyTitle": "Aucune notification pour l'instant",
+    "emptyText": "Quand quelque chose se passe, vous le verrez ici.",
+    "markAllRead": "Tout marquer comme lu",
+    "new": "Nouveau",
+    "unread": "non lues",
+    "ariaCount_one": "Notifications : {{count}} non lue",
+    "ariaCount_other": "Notifications : {{count}} non lues",
+    "kinds": {
+      "request_created": "Nouveau problème signalé à {{property}}, {{unit}} : {{category}} ({{reference}})",
+      "request_created_urgent": "Problème URGENT à {{property}}, {{unit}} : {{category}} ({{reference}})",
+      "request_status": "Votre demande {{reference}} est maintenant : {{status}}",
+      "request_note": "Nouveau message de {{author}} concernant {{reference}}",
+      "repair_completed": "La réparation pour {{reference}} est terminée",
+      "tenant_joined": "{{tenant}} a rejoint {{property}}, {{unit}}",
+      "tenancy_started": "Bienvenue ! Vous êtes maintenant lié(e) à {{property}}, {{unit}}",
+      "inspection_shared": "Un état des lieux de {{unit}} est disponible ({{type}}, {{date}})",
+      "payment_recorded": "Votre bailleur a enregistré un paiement de loyer de {{amount}} le {{date}}",
+      "manager_assigned": "Vous pouvez maintenant aider à gérer {{property}}"
+    }
+  },
+  "photos": {
+    "hint": "Jusqu'à {{max}} photos, de {{size}} Mo maximum chacune (JPG, PNG ou WEBP).",
+    "takePhoto": "Prendre une photo",
+    "choosePhotos": "Choisir des photos",
+    "selected_one": "{{count}} photo sélectionnée",
+    "selected_other": "{{count}} photos sélectionnées",
+    "previewAlt": "Photo sélectionnée {{number}}",
+    "wrongType": "Ce fichier n'est pas une photo. Choisissez une image JPG, PNG ou WEBP.",
+    "tooLarge": "Cette photo est trop lourde. La limite est de {{max}} Mo."
+  },
+  "settings": {
+    "subtitle": "Modifiez la langue, la taille du texte et les informations du compte.",
+    "display": "Langue et affichage",
+    "textSize": "Taille du texte",
+    "textNormal": "Texte normal",
+    "textLarge": "Texte plus grand",
+    "theme": "Couleurs",
+    "light": "Clair",
+    "dark": "Sombre",
+    "profile": "Mes informations",
+    "emailFixed": "Votre e-mail ne peut pas être modifié ici.",
+    "profileSaved": "Vos informations ont été enregistrées.",
+    "password": "Mot de passe",
+    "changePassword": "Changer mon mot de passe",
+    "passwordSaved": "Votre mot de passe a été changé.",
+    "account": "Compte",
+    "signedInAs": "Connecté(e) en tant que {{email}} ({{role}})."
+  },
+  "tenant": {
+    "welcome": "Bonjour, {{name}}",
+    "joinedTitle": "Vous avez rejoint votre logement",
+    "joinedText": "Si quelque chose ne fonctionne plus, appuyez sur « Signaler un problème ». Votre bailleur sera prévenu tout de suite et vous pourrez suivre la réparation ici.",
+    "noHomeTitle": "Votre compte n'est pas encore lié à un logement",
+    "noHomeText": "Demandez à votre bailleur de vous envoyer un lien d'invitation.",
+    "yourHome": "Votre logement",
+    "reportHint": "Quelque chose est cassé ou ne marche pas ? Prévenez votre bailleur en quelques étapes.",
+    "activeRequests": "Mes demandes en cours",
+    "seeAll": "Tout voir",
+    "noActive": "Vous n'avez aucune demande en cours.",
+    "noDone": "Aucune demande terminée pour l'instant.",
+    "recentUpdates": "Dernières nouvelles",
+    "homeDetails": "À propos de mon logement",
+    "landlordContact": "Votre bailleur",
+    "myPayments": "Mes paiements de loyer",
+    "conditionRecords": "États des lieux de mon logement",
+    "conditionRecordsHint": "Les états des lieux que votre bailleur a partagés avec vous.",
+    "inProgressTab": "En cours",
+    "doneTab": "Terminées",
+    "backHome": "Retour à Mon logement",
+    "inspectionNote": "Ceci est un relevé daté de l'état du logement. Si quelque chose vous semble incorrect, parlez-en à votre bailleur.",
+    "paymentsOff": "Votre bailleur n'a pas partagé les relevés de loyer ici.",
+    "paymentsNote": "Ce sont les paiements enregistrés par votre bailleur. Si quelque chose semble incorrect, contactez votre bailleur."
+  },
+  "landing": {
+    "tagline": "La gestion locative en toute simplicité",
+    "badge": "Conçu pour les bailleurs au Rwanda",
+    "title": "Prenez soin de vos logements, des réparations et des loyers — en un seul endroit simple.",
+    "subtitle": "Rental_Control garde l'historique de l'état de chaque logement, permet aux locataires de signaler des problèmes avec des photos et vous montre les loyers et les dépenses de chaque bien.",
+    "ctaLandlord": "Commencer gratuitement",
+    "openApp": "Ouvrir mon compte",
+    "tenantNote": "Vous êtes locataire ? Votre bailleur vous enverra un lien d'invitation personnel.",
+    "exampleUrgent": "Urgent : fuite d'eau dans la cuisine",
+    "exampleRent": "Loyer pas encore payé",
+    "exampleExample": "exemple",
+    "exampleDone": "Réparation terminée",
+    "featuresTitle": "Ce que vous pouvez faire",
+    "features": {
+      "properties": {
+        "title": "Tous vos biens",
+        "text": "Voyez chaque maison, appartement et locataire sur un seul écran."
+      },
+      "passport": {
+        "title": "Passeport numérique du logement",
+        "text": "L'historique daté de chaque logement : états des lieux, photos, réparations et coûts."
+      },
+      "repairs": {
+        "title": "Des réparations sans coups de fil",
+        "text": "Les locataires signalent un problème en quelques gestes. Vous suivez chaque réparation du début à la fin."
+      },
+      "photos": {
+        "title": "Des photos comme preuves",
+        "text": "Comparez côte à côte les photos de l'entrée et des contrôles suivants."
+      },
+      "money": {
+        "title": "Loyers et dépenses",
+        "text": "Enregistrez les loyers reçus et l'argent dépensé, et voyez ce que rapporte chaque bien."
+      },
+      "languages": {
+        "title": "Votre langue",
+        "text": "Utilisez Rental_Control en anglais, en kinyarwanda ou en français."
+      }
+    }
+  },
+  "help": {
+    "title": "Aide et assistance",
+    "subtitle": "Des réponses courtes aux questions fréquentes. Appuyez sur une question pour lire la réponse.",
+    "topics": {
+      "addProperty": {
+        "q": "Comment ajouter un bien ?",
+        "a": "Allez dans « Mes biens » et appuyez sur « Ajouter un bien ». Suivez les 4 courtes étapes. Ajoutez ensuite chaque logement (appartement, maison ou chambre) que vous louez."
+      },
+      "inviteTenant": {
+        "q": "Comment ajouter un locataire ?",
+        "a": "Ouvrez le logement, choisissez l'onglet « Locataire » et appuyez sur « Inviter un locataire ». Indiquez le nom et l'e-mail du locataire. Vous obtiendrez un lien privé : envoyez-le par e-mail, SMS ou WhatsApp. Le locataire l'ouvre pour créer son compte."
+      },
+      "reportProblem": {
+        "q": "Comment signaler un problème ?",
+        "a": "Appuyez sur le grand bouton « Signaler un problème ». Choisissez le type de problème, décrivez-le en quelques mots, ajoutez une photo si possible et appuyez sur « Envoyer ». Vous recevrez un numéro de référence."
+      },
+      "trackRepair": {
+        "q": "Comment suivre une réparation ?",
+        "a": "Ouvrez « Mes demandes » (locataires) ou « Entretien » (bailleurs). Chaque demande affiche son statut et l'historique de chaque étape : signalée, examinée, réparation commencée, résolue."
+      },
+      "inspection": {
+        "q": "Qu'est-ce qu'un état des lieux ?",
+        "a": "Un état des lieux est un contrôle daté du logement, pièce par pièce. Pour chaque élément, choisissez Bon, À surveiller ou Endommagé, et ajoutez des photos. Une fois terminé, le relevé est verrouillé pour rester fiable, par exemple au départ d'un locataire."
+      },
+      "rent": {
+        "q": "Comment enregistrer un loyer ?",
+        "a": "Allez dans « Loyers et finances » et appuyez sur « Enregistrer un paiement ». Rental_Control conserve seulement des relevés — il n'envoie ni ne reçoit d'argent."
+      },
+      "language": {
+        "q": "Comment changer de langue ?",
+        "a": "Utilisez le menu « Langue » en haut de chaque page. Votre choix est enregistré dans votre compte."
+      },
+      "textSize": {
+        "q": "Puis-je agrandir le texte ?",
+        "a": "Oui. Allez dans Paramètres (ou Profil) et choisissez « Texte plus grand ». Vous pouvez aussi utiliser le zoom de votre navigateur."
+      }
+    },
+    "contactTitle": "Besoin d'aide supplémentaire ?",
+    "contactText": "Contactez l'équipe d'assistance de Rental_Control. Nous répondons en anglais, en kinyarwanda et en français.",
+    "contactPhone": "Téléphone : à configurer par l'exploitant",
+    "contactEmail": "E-mail : à configurer par l'exploitant"
+  },
+  "privacy": {
+    "title": "Informations sur la confidentialité",
+    "subtitle": "Comment Rental_Control utilise vos informations, en mots simples.",
+    "sections": {
+      "what": {
+        "title": "Ce que nous conservons",
+        "text": "Votre nom, votre e-mail et votre numéro de téléphone ; les biens et logements que vous gérez ; les états des lieux, photos, demandes de réparation, dépenses et relevés de loyer ajoutés par vous ou vos locataires."
+      },
+      "why": {
+        "title": "Pourquoi nous les conservons",
+        "text": "Uniquement pour faire fonctionner le service : vous montrer vos relevés, informer les personnes concernées des nouvelles et garder un historique fiable de chaque logement."
+      },
+      "who": {
+        "title": "Qui peut les voir",
+        "text": "Les bailleurs ne voient que leurs propres biens. Les gestionnaires ne voient que les biens qu'un propriétaire leur a confiés. Les locataires ne voient que leur propre logement, leurs propres demandes et les relevés partagés avec eux. Un nouveau locataire ne peut pas voir les demandes du locataire précédent."
+      },
+      "photos": {
+        "title": "Photos et preuves",
+        "text": "Les photos sont privées. Elles ne sont montrées qu'aux personnes connectées autorisées à voir ce relevé. Les états des lieux terminés ne peuvent pas être modifiés et restent donc fiables. Rental_Control ne décide jamais qui a causé un dommage — ce sont les personnes qui en décident."
+      },
+      "rights": {
+        "title": "Vos choix",
+        "text": "Vous pouvez corriger vos informations dans les Paramètres. Pour supprimer votre compte ou obtenir une copie de vos données, contactez l'assistance."
+      },
+      "storage": {
+        "title": "Où elles sont stockées",
+        "text": "Les données sont stockées sur les serveurs choisis par l'exploitant de cette installation de Rental_Control. Les mots de passe sont stockés sous une forme protégée (hachée)."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "Cette page n'existe pas ou vous n'avez pas le droit de la voir.",
+    "goHome": "Aller à ma page d'accueil"
+  },
+  "validation": {
+    "required": "Veuillez remplir ce champ.",
+    "blank": "Veuillez remplir ce champ.",
+    "null": "Veuillez remplir ce champ.",
+    "invalid": "Cette valeur n'est pas valide.",
+    "invalid_choice": "Veuillez choisir l'une des options.",
+    "email": "Veuillez saisir une adresse e-mail valide, par exemple nom@exemple.com.",
+    "nameRequired": "Veuillez saisir un nom.",
+    "passwordLength": "Le mot de passe doit contenir au moins 8 caractères.",
+    "passwordsMatch": "Les deux mots de passe ne sont pas identiques.",
+    "wholeNumber": "Veuillez saisir un nombre entier sans décimales, par exemple 45000.",
+    "min_value": "Ce nombre est trop petit.",
+    "max_value": "Ce nombre est trop grand.",
+    "max_length": "Ce texte est trop long.",
+    "min_length": "Ce texte est trop court.",
+    "email_taken": "Un compte existe déjà avec cet e-mail. Essayez de vous connecter.",
+    "weak_password": "Ce mot de passe est trop facile à deviner. Choisissez-en un plus long.",
+    "wrong_password": "Votre mot de passe actuel n'est pas correct.",
+    "invalid_reset_link": "Ce lien de réinitialisation a expiré ou a déjà été utilisé.",
+    "invalid_image": "Veuillez choisir une photo (JPG, PNG ou WEBP).",
+    "file_too_large": "Ce fichier est trop lourd.",
+    "invalid_document": "Ce fichier n'a pas pu être lu.",
+    "duplicate_unit": "Ce bien a déjà un logement portant ce nom.",
+    "not_allowed": "Vous n'avez pas le droit de choisir cela.",
+    "too_short": "Veuillez écrire un peu plus.",
+    "already_counted": "Le coût de cette réparation est déjà enregistré. Modifiez la réparation au lieu d'ajouter une deuxième dépense.",
+    "before_tenancy": "Cette date est antérieure à l'arrivée du locataire.",
+    "end_before_start": "La date de fin doit être après la date de début.",
+    "not_tenant_email": "Cet e-mail appartient à un compte de bailleur ou de gestionnaire. Utilisez l'e-mail personnel du locataire.",
+    "manager_not_found": "Aucun compte de gestionnaire trouvé avec cet e-mail. Demandez-lui de s'inscrire d'abord.",
+    "invalid_date": "Veuillez saisir une date valide."
+  },
+  "errors": {
+    "unknown": "Un problème est survenu. Veuillez réessayer.",
+    "validation_error": "Veuillez vérifier les informations signalées.",
+    "network_error": "Impossible de joindre Rental_Control. Vérifiez votre connexion Internet et réessayez.",
+    "not_authenticated": "Veuillez vous connecter pour continuer.",
+    "authentication_failed": "Veuillez vous reconnecter.",
+    "invalid_credentials": "L'e-mail ou le mot de passe n'est pas correct.",
+    "permission_denied": "Vous n'avez pas le droit de faire cela.",
+    "not_found": "Introuvable. Cet élément a peut-être été supprimé.",
+    "throttled": "Trop de tentatives. Attendez une minute et réessayez.",
+    "csrf_failed": "Votre session a expiré. Actualisez la page et réessayez.",
+    "conflict": "Cette action n'est pas possible pour le moment.",
+    "error": "Un problème est survenu. Veuillez réessayer.",
+    "parse_error": "Un problème est survenu. Veuillez réessayer.",
+    "http_500": "Le serveur a rencontré un problème. Réessayez dans un instant.",
+    "owner_only": "Seul le propriétaire du bien peut faire cela.",
+    "staff_only": "Seul votre bailleur ou gestionnaire peut faire cela.",
+    "property_has_history": "Des locataires, états des lieux, réparations ou dépenses sont enregistrés pour ce bien : il ne peut donc pas être supprimé. Son historique est conservé.",
+    "unit_has_history": "Ce logement a un historique (locataires, états des lieux, réparations ou dépenses) : il ne peut donc pas être supprimé.",
+    "unit_occupied": "Quelqu'un habite déjà ce logement. Enregistrez d'abord son départ.",
+    "unit_vacant": "Personne n'habite ce logement en ce moment.",
+    "end_before_start": "La date de fin doit être après la date de début.",
+    "invitation_not_found": "Ce lien d'invitation n'est pas valide. Vérifiez le lien ou demandez-en un nouveau à votre bailleur.",
+    "invitation_accepted": "Cette invitation a déjà été utilisée.",
+    "invitation_expired": "Cette invitation a expiré. Demandez un nouveau lien à votre bailleur.",
+    "invitation_cancelled": "Cette invitation a été annulée. Demandez un nouveau lien à votre bailleur.",
+    "invitation_closed": "Cette invitation n'est plus ouverte.",
+    "sign_in_required": "Connectez-vous d'abord avec l'adresse e-mail invitée.",
+    "wrong_account": "Cette invitation est destinée à une autre adresse e-mail.",
+    "not_tenant_account": "Cette invitation ne peut être acceptée que par un compte locataire.",
+    "no_home": "Votre compte n'est pas encore lié à un logement. Demandez à votre bailleur de vous inviter.",
+    "invalid_transition": "Cette étape n'est pas possible depuis le statut actuel.",
+    "inspection_locked": "Cet état des lieux est terminé et conservé comme relevé définitif. Il ne peut pas être modifié.",
+    "inspection_empty": "Ajoutez au moins une pièce avant de terminer.",
+    "repair_exists": "Une réparation est déjà enregistrée pour cette demande.",
+    "request_closed": "Cette demande est clôturée.",
+    "too_many_photos": "Cette demande a déjà le nombre maximum de photos.",
+    "no_finance_access": "Vous n'avez pas le droit de voir ou d'enregistrer l'argent de ce bien.",
+    "repair_expense": "Il s'agit du coût d'une réparation. Modifiez-le depuis la demande de réparation."
+  },
+  "dates": {
+    "months": {
+      "1": "janvier",
+      "2": "février",
+      "3": "mars",
+      "4": "avril",
+      "5": "mai",
+      "6": "juin",
+      "7": "juillet",
+      "8": "août",
+      "9": "septembre",
+      "10": "octobre",
+      "11": "novembre",
+      "12": "décembre"
+    },
+    "justNow": "à l'instant",
+    "minutesAgo_one": "il y a {{count}} minute",
+    "minutesAgo_other": "il y a {{count}} minutes",
+    "hoursAgo_one": "il y a {{count}} heure",
+    "hoursAgo_other": "il y a {{count}} heures",
+    "daysAgo_one": "il y a {{count}} jour",
+    "daysAgo_other": "il y a {{count}} jours"
+  }
+}
